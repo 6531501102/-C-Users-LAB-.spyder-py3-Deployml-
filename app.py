@@ -10,7 +10,8 @@ import numpy as np
 import pickle
 
 #load model
-with open ('dtm_trained_model.pkl','rb')as  f:dtm_model = pickle.load(f)
+with open ('dtm_trained_model.pkl','rb') as f:
+        dtm_model = pickle.load(f)
 
 #application title
 st.title("Iris Flower Cliassification")
